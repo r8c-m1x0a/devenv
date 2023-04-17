@@ -1,8 +1,8 @@
 {
     "name": "r8c-devenv",
     "image": "ghcr.io/r8c-m1x0a/docker-devenv:latest",
-    "workspaceFolder": "/root/r8c",
-    "workspaceMount": "source=r8c-workspace,target=/root/r8c,type=volume"
+    "workspaceFolder": "/root/r8c-workspace",
+    "workspaceMount": "source=r8c-workspace,target=/root/r8c-workspace,type=volume"
     "customizations": {
         "vscode": {
             "extensions": [
